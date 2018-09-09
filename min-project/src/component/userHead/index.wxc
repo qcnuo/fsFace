@@ -1,0 +1,42 @@
+<template>
+  <wxc-avatar class="avatar" count="{{count}}" src="{{src}}"></wxc-avatar>
+  <slot></slot>
+</template>
+
+<script>
+export default {
+  config: {
+    usingComponents: {
+      'wxc-avatar': '@minui/wxc-avatar'
+    }
+  },
+  data: {},
+   properties: {
+    src: {
+      type: String,
+      value: ''
+    },
+    mold: {
+      type: String,
+      value: 'circle'
+    },
+    count: {
+      type: Number,
+      value: ''
+    },
+    approve: {
+      type: String,
+      value: ''
+    }
+  },
+  methods: {}
+}
+</script>
+
+<style>
+  .avatar {
+    display: block;
+    width: 120rpx;
+    height: 120rpx;
+  }
+</style>

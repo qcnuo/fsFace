@@ -1,0 +1,2 @@
+<wxc-avatar class="avatar" count="{{count}}" src="{{src}}" _pid="{{_pid}}"></wxc-avatar>
+<slot></slot>

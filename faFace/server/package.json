@@ -12,6 +12,7 @@
     "license": "MIT",
     "dependencies": {
         "axios": "^0.15.3",
+        "cheerio": "^1.0.0-rc.2",
         "knex": "^0.13.0",
         "koa": "^2.0.0",
         "koa-bodyparser": "^3.2.0",
@@ -21,7 +22,8 @@
         "mkdir-p": "0.0.7",
         "mysql": "^2.14.1",
         "pify": "^2.3.0",
-        "wafer-node-sdk": "^1.4.0"
+        "wafer-node-sdk": "^1.4.0",
+        "xmlreader": "^0.2.3"
     },
     "devDependencies": {
         "babel-eslint": "^7.1.0",

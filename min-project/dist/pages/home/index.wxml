@@ -2,10 +2,17 @@
     <!-- wxp template -->
     <view>
         <view class="index-hd">
-            <image class="index-logo" src="https://s10.mogucdn.com/mlcdn/c45406/171122_5l92i48kb80j1fkha1fh1cd3h43i5_200x200.png"></image>
-            <view class="index-desc">MinUI-小程序</view>
+            <wxc-userhead src="{{userInfo.avatarUrl}}" _pid="{{_pid}}">
+
+
+            </wxc-userhead>
+            <image class="index-logo" src="{{userInfo.avatarUrl}}"></image>
+            <view class="index-desc">{{userInfo.nikeName}}</view>
         </view>
-        <wxc-notice scroll="{{true}}" close="{{true}}" bg-color="#ff9300" bg-rgba="rgba(255, 147, 0, 0)" show-icon="{{true}}" notice="{{notice}}" _pid="{{_pid}}"></wxc-notice>
+        <open-data type="userNickName"></open-data>
+
+
+        <wxc-dialog class="wxc-dialog" content-color="#353535" content="告知当前状态，信息和解决方案，文字换行的情况。" confirm-text="知道了" cancel-text="取消" bindconfirm="onConfirm" bindcancel="onCancel" _pid="{{_pid}}"></wxc-dialog>
 
         <view class="index-ft">
             <view class="provider">Created by Min</view>

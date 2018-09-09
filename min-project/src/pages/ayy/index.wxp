@@ -1,0 +1,16 @@
+<template>
+  <view>Ayy Page</view>
+</template>
+
+<script>
+export default {
+  config: {
+    navigationBarTitleText: '44',
+    usingComponents: {}
+  },
+  data: {}
+}
+</script>
+
+<style>
+</style>

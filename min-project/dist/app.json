@@ -1,12 +1,13 @@
 {
   "pages": [
-    "pages/home/index"
+    "pages/home/index",
+    "pages/ayy/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "backgroundColor": "#F8F8F8",
     "navigationBarBackgroundColor": "#F8F8F8",
-    "navigationBarTitleText": "#fff",
+    "navigationBarTitleText": "Face UI",
     "navigationBarTextStyle": "black"
   },
   "networkTimeout": {

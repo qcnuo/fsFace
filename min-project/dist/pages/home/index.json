@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    "wxc-notice": "../../packages/@minui/wxc-notice/dist/index"
+    "wxc-notice": "../../packages/@minui/wxc-notice/dist/index",
+    "wxc-dialog": "../../packages/@minui/wxc-dialog/dist/index",
+    "wxc-toast": "../../packages/@minui/wxc-toast/dist/index",
+    "wxc-userhead": "../../component/userhead/index"
   }
 }
